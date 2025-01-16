@@ -8,7 +8,10 @@ export default defineConfig({
 	base: '/astro-docs-template/',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Documentacion PG',
+			logo: {
+				src: './src/assets/Logo-PG.png',
+			  },
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
