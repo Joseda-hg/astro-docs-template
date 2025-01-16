@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://joseda-hg.github.io/astro-docs-template/',
+	base: '/astro-docs-template/',
 	integrations: [
 		starlight({
 			title: 'My Docs',
